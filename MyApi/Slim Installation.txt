@@ -1,0 +1,15 @@
+Steps for REST API Project using SLIM....
+
+Tutorial Site:- https://www.youtube.com/watch?v=eGvfY_rHJGo&list=PLk7v1Z2rk4hhGfJw-IQCm6kjywmuJX4Rh&index=4
+
+1. Download composer and install it.
+2. Download Xampp and Install it.
+3. go to directory xampp>htdocs in which you have to create your project named as MyApi.
+4. You need slim version 3.12.1 Sp inorder to get it you need to run the following command.
+	Directory:- xampp>htdocs
+	command:- composer require slim/slim:3.*
+			This will create a vendor folder you need to copy that folder and paste in MyApi.
+			then run next command.
+		  composer composer create-project slim/slim-skeleton MyApi2
+5. copy the public folder and paste in MyApi.
+6. make changes according to the tutorial and voila...
